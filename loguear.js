@@ -4,7 +4,7 @@ function loguear(a){
         
     nuevoLog= new Object();
     
-    nuevoLog["Libreria"]= lib.name
+    nuevoLog["Libreria"]= l.name
     nuevoLog["Asunto"]=a["name"];
     nuevoLog["Descripcion"]=a["message"];
     nuevoLog["Fecha y Hora"] = new Date();
