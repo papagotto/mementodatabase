@@ -1,7 +1,6 @@
-function actualizarCosto(){
+function actualizarCosto(e){
 try{
 
-var e=entry();
   
 var precios= e.linksFrom("Precios","Producto")
 
