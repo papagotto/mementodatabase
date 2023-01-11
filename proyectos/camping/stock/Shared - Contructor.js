@@ -1,4 +1,4 @@
 ﻿function contructor(){
-	var e = entry()
-    var l = lib() 
+	var windows.e = entry()
+    var windows.l = lib() 
 }
