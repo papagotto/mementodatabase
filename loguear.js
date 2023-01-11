@@ -1,4 +1,5 @@
 function loguear(a){
+    
     let lib = lib();
     libreria=libByName("Log");
         
