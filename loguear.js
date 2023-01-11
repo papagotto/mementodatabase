@@ -1,4 +1,4 @@
-function loguear(a){
+function logErr(a){
     
     libreria=libByName("Log");
         
