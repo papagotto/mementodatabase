@@ -1,4 +1,4 @@
-function actualizarCosto(){
+const function actualizarCosto(){
    
 	var e=entry();
 	
@@ -13,6 +13,8 @@ function actualizarCosto(){
 		}
 
 	}
+	
 	e.set("Costo",precioActualizado);
-	return precioActualizado;
+	
+	//return precioActualizado;
 }
