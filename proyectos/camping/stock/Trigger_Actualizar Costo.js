@@ -1,9 +1,10 @@
 function actualizarCosto(){
 try{
 
+var e=entry();
+  
 var precios= e.linksFrom("Precios","Producto")
-var e=etnry();
- 
+
 for(var i in precios){
     
     if(precios[i].field("Actual")== true){ 
