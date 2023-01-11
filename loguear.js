@@ -1,6 +1,5 @@
 function loguear(a){
     
-    let lib = lib();
     libreria=libByName("Log");
         
     nuevoLog= new Object();
