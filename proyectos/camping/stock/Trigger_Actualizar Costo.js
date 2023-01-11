@@ -1,8 +1,6 @@
 function actualizarCosto(e){
    
-
-  
-   var precios= e.linksFrom("Precios","Producto")
+   var precios = e.linksFrom("Precios","Producto");
 
    for(var i in precios){
     
@@ -14,5 +12,5 @@ function actualizarCosto(e){
 
    }
    e.set("Costo",precioActualizado);
- 
+ //esto es un cambio de algo que no se que es. 
 }
