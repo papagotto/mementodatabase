@@ -1,16 +1,16 @@
 function actualizarCosto(e){
    
-   var precios = e.linksFrom("Precios","Producto");
+	var precios = e.linksFrom("Precios","Producto");
 
-   for(var i in precios){
+	for( var i in precios){
     
-      if(precios[i].field("Actual")== true){ 
+		if(precios[i].field("Actual")== true){ 
             
-       var precioActualizado= precios[i].field("Monto"); 
+		var precioActualizado= precios[i].field("Monto"); 
     
-       }
+		}
 
-   }
-   e.set("Costo",precioActualizado);
- //esto es un cambio de algo que no se que es. 
+	}
+	e.set("Costo",precioActualizado);
+	return precioActualizado;
 }
