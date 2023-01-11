@@ -1,3 +1,4 @@
+function actualizarCosto(){
 try{
 
 var precios= e.linksFrom("Precios","Producto")
@@ -21,4 +22,5 @@ e.set("Costo",precioActualizado);
    loguear(Err);    
     
 
+}
 }
