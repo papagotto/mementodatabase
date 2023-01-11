@@ -2,7 +2,7 @@ function actualizarCosto(){
 try{
 
 var precios= e.linksFrom("Precios","Producto")
-
+var e=etnry();
  
 for(var i in precios){
     
