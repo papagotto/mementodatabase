@@ -14,5 +14,5 @@ function actualizarCosto(e){
 	
 	e.set("Costo",precioActualizado);
 	e.recalc()
-	//return precioActualizado;
+	
 }
