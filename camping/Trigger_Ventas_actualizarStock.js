@@ -17,6 +17,7 @@ function actualizarStock(e,l){
         cantidad = items[i].attr("Cantidad"); 
         cantidadStock = items[i].field("Cantidad");
         items[i].set("Cantidad",cantidadStock-cantidad);
+        items[i].recalc()
     }
-
+    libStock
 }
