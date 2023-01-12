@@ -1,6 +1,6 @@
 ﻿function seteoVariables(){
 	
-	var windows.e = entry();
-    var windows.l = lib(); 
+	var e = entry();
+    var l = lib(); 
     
 } 

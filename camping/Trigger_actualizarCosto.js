@@ -1,4 +1,4 @@
-const function actualizarCosto(e){
+function actualizarCosto(e){
   
 	var precios = e.linksFrom("Precios","Producto");
 
@@ -6,7 +6,7 @@ const function actualizarCosto(e){
     
 		if(precios[i].field("Actual")== true){ 
             
-		var precioActualizado= precios[i].field("Monto"); 
+			var precioActualizado= precios[i].field("Monto"); 
     
 		}
 
