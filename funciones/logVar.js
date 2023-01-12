@@ -1,6 +1,7 @@
 function logVar(a){
     
-   
+   message(a);
+   log(a);
 	
 	libreria=libByName("Log");
         
