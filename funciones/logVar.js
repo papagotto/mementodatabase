@@ -1,6 +1,6 @@
 function logVar(a){
     
-    log(Object.values(a));
+   
 	
 	libreria=libByName("Log");
         
