@@ -1,6 +1,6 @@
-﻿function conts(){
+﻿const function constructor(){
 	
-	var windows.e = entry()
-    var windows.l = lib() 
+	var this.e = entry()
+    var this.l = lib() 
     
 } 
