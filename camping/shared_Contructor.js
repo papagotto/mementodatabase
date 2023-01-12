@@ -1,6 +1,6 @@
 ﻿function variables(){
 	
-	var this.e = entry()
-    var this.l = lib() 
+	var windows.e = entry();
+    var windows.l = lib(); 
     
 } 
