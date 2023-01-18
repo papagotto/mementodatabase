@@ -1,13 +1,14 @@
 function agregarCaja(e,l){
 
     var ubicacion = e.field("Ubicacion");
-    
+    var libreria = libByName("Relevo Cajas");
     var entradaNueva = new Object;
     
     entradaNueva["Ubicacion"] = ubicacion; 
-    entradaNueva["Calificacion"] = "Caja";
+    entradaNueva["Id Poste"] = e.field("Numero");
     
 
-    l.create(entradaNueva);
+    libreria.create(entradaNueva);
+
 
 }
