@@ -1,4 +1,4 @@
-function agregarCaja(e,l){
+function agregarCaja(e){
 
     var ubicacion = e.field("Ubicacion");
     var libreria = libByName("Relevo Cajas");
