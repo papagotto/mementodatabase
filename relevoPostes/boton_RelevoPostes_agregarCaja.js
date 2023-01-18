@@ -5,8 +5,8 @@ function agregarCaja(e,l){
     var entradaNueva = new Object;
     
     entradaNueva["Ubicacion"] = ubicacion; 
-    entradaNueva["Tipo"] = "Caja";
-    entradaNueva["Numero"]=0;
+    entradaNueva["Calificacion"] = "Caja";
+    
 
     l.create(entradaNueva);
 
