@@ -1,7 +1,7 @@
 function logVar(a,l){
 	
 	libreria=libByName("Log");
-        
+    message(libreria.title);    
     nuevoLog= new Object();
     
     nuevoLog["Libreria"]= l.title
