@@ -1,4 +1,4 @@
-function logVar(a){
+function logVar(a,l){
 	
 	libreria=libByName("Log");
         
