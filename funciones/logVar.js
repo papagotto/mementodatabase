@@ -1,7 +1,7 @@
 function logVar(a,l){
 	
 	libreria=libByName("Log");
-    message(typeOf(moment().format('DD/MM/YYYY hh:mm')));    
+    message(typeof(moment().format('DD/MM/YYYY hh:mm')));    
     exit();
     nuevoLog= new Object();
     
