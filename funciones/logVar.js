@@ -7,7 +7,7 @@ function logVar(a,l){
     nuevoLog["Libreria"]= l.title
     nuevoLog["Asunto"]="Return";
     nuevoLog["Descripcion"]= a;
-    nuevoLog["Fecha y Hora"] = new Date().toLocaleString();
+    nuevoLog["Fecha y Hora"] = moment().format('DD/MM/YYYY hh:mm')
 
     libreria.create(nuevoLog);
 }
