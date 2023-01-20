@@ -3,7 +3,8 @@ function logVar(a,l){
 	var libreria=libByName("Log");
     var fechaHora = new Date (moment().format('DD/MM/YYYY hh:mm'));
     message(typeof(fechaHora));
-    exit(); 
+    exit();
+     
     var nuevoLog= new Object();
     
     nuevoLog["Libreria"]= l.title
