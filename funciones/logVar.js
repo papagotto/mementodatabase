@@ -1,7 +1,8 @@
 function logVar(a,l){
 	
 	libreria=libByName("Log");
-    message(libreria.title);    
+    message(typeOf(moment().format('DD/MM/YYYY hh:mm')));    
+    exit();
     nuevoLog= new Object();
     
     nuevoLog["Libreria"]= l.title
