@@ -46,7 +46,7 @@ function messJSON (e, args, g){
             }    
 
         }
-    
+        mensaje +=',"Id Caleandario":"'+idCal+'"'
          mensaje+='}';    
     
     }
